@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="#438fe6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Choose your physical activity level"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="9dp"
+            android:text="Little or no exercise"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/etL1"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/bmr1"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_weight="0.24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="9dp"
+            android:text="Light exercise"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/etL2"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/bmr2"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_weight="0.24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="9dp"
+            android:text="Moderate exercise"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/etL3"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/bmr3"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_weight="0.24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="9dp"
+            android:text="Hard exercise"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/etL4"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.24"
+            android:background="@drawable/circle"
+            android:src="@drawable/bmr4"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="9dp"
+            android:text="Very hard exercise"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/etL5"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.24"
+            android:background="@drawable/circle"
+            android:src="@drawable/bmr5"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/calorieText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Your daily calorie requirement"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/etTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="3"
+            android:textAlignment="center"
+            android:textColor="#010101"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/etUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="3"
+            android:text="Calories per day"
+            android:textColor="#010101"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

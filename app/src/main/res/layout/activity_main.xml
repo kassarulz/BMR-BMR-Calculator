@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="#438fe6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Here you can put your logo or brand name -->
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="30dp"
+                android:padding="0dp"
+                android:src="@mipmap/bmr" />
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/weight"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter your weight in kg"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:id="@+id/etHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/height"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter your Height in cm"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="8dp"
+
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/age"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter your age in years"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="8dp"
+
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1.5"
+                    android:drawableLeft="@drawable/gender"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="9dp"
+                    android:text="Gender"
+
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/radio_grp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:drawableLeft="@drawable/male"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Male"
+                        android:background="@android:color/transparent" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:drawableLeft="@drawable/female"
+                        android:layout_weight="1"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+            <ImageButton
+                android:id="@+id/calculateBtn"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/circle"
+                android:clickable="true"
+                android:src="@drawable/calculate"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
